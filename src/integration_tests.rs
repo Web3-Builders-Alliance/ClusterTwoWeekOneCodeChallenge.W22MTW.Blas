@@ -221,6 +221,7 @@ mod tests {
         // In order to test an scenario where a second user creates a message the add_message_without_funds functionality has been implemented in the contract.
         // When creating the app, only one initial_balance can be set, so, as to wallets can not be set up based on my current knowledge
         // the best way to have that user with a message created, it is to allow him to create the message without funds.
+        //
         let (mut app, code_id) = store_code();
         let messages_contract = messages_contract(&mut app, code_id);
         let funds = vec![coin(LIKECOIN_AMOUNT, LIKECOIN_DENOM)];
