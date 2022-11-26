@@ -90,6 +90,7 @@ pub fn add_message(
         .add_attribute("id", new_message.id.to_string()))
 }
 
+// This ExecuteMsg has been implementing for testing purposes, as the 
 pub fn add_message_without_funds(
     deps: DepsMut,
     info: MessageInfo,
