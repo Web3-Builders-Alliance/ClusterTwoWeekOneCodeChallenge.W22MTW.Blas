@@ -1,4 +1,4 @@
-# WBA Cluster 2 - Week 1 Code Hacking
+# WBA Cluster 2 - Week 1 Code Challenge
 
 **Messages - Likes Contract.**
 
